@@ -2,6 +2,8 @@
 <html ng-app="chapter_1">
 <head>
 	<title></title>
+	<script data-require="angular.js@1.2.7" data-semver="1.2.7" src="http://code.angularjs.org/1.2.7/angular.js"></script>
+	<script src="app.js"></script>
 	
 </head>
 <body>
@@ -10,15 +12,15 @@
 <table border="1" cellpadding="1" cellspacing="1" style="width:250px;">
 	<tbody>
 		<tr>
-			<td>Home</td>
+			<td><a href="../bhavadgita/index.html">Home</a></td>
 		</tr>
 		<tr>
-			<td>Full Chapter 1</td>
+			<td><a href="../bhagavadgita/full_chapter_1.html">Read Chapter 1</a></td>
 		</tr>
 	</tbody>
 </table>
 
-
+<div ng-repeat="n in [] | range:10">do something number {{$index}}</div>
 
 <p></p>
 </body>
