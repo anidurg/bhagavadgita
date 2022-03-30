@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="chapter_1">
+<head>
+	<title></title>
+	<script data-require="angular.js@1.2.7" data-semver="1.2.7" src="http://code.angularjs.org/1.2.7/angular.js"></script><script src="app.js"></script>
+</head>
+<body>
+<p style="text-align: center;"><span style="font-size:36px;"><span style="font-family:times new roman,times,serif;">Chapter 01-&nbsp;arjuna-viṣāda-yogaḥ</span></span></p>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width:250px;">
+	<tbody>
+		<tr>
+			<td>Home</td>
+		</tr>
+		<tr>
+			<td>Full Chapter 1</td>
+		</tr>
+	</tbody>
+</table>
+
+<div ng-repeat="n in [] | range:10">do something number {{$index}}</div>
+
+<p></p>
+</body>
+</html>
